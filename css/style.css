@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #000000, #0a0a0a 40%, #000000);
+    color: #e5e5e5;
+}
+
+a {
+    color: #fff;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    border-bottom: 3px solid #ef1d28;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #bbb;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ef1d28;
+    text-shadow: 0 0 8px #ef1d28;
+}
+
+main {
+    padding: 80px 0;
+}
+
+.about {
+    margin: 70px;
+}
+
+.about h1 {
+    color: #ef1d28;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: #ef1d28;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.driver {
+    border: none;
+    min-height: 2px;
+    background-color: #ef1d28;
+}
+
+.education {
+    margin: 70px;
+}
+
+.education h2 {
+    color: #ef1d28;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.education p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000;
+    border-top: 3px solid #ef1d28;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+}
